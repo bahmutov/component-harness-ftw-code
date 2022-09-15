@@ -1,5 +1,7 @@
 # Angular Component Harnesses FTW Sample Application and Tests
 
+Read the blog post [Cypress Component Testing vs Angular Test Harness](https://glebbahmutov.com/blog/cypress-component-testing-vs-angular-test-harness/)
+
 ![screenshot of the running application](cover.jpg)
 
 This is a K-Drama fan site showcasing component unit tests. There's examples of tests with and without test harnesses, as well as a custom component harness implementation and tests.
@@ -11,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Environment setup instructions
 
 ```console
-git clone 
+git clone
 npm ci
 ```
 
