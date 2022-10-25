@@ -15,3 +15,11 @@ it('shows list of dramas', { viewportHeight: 1000, viewportWidth: 600 }, () => {
     },
   })
 })
+
+it('shows one drama', () => {
+  cy.mount(DramaComponent, {
+    componentProperties: {
+      drama: dramas[0],
+    },
+  })
+})
